@@ -93,13 +93,13 @@ skills:
         percent: 80
         icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+#languages:
+  #- name: English
+   # percent: 100
+  #- name: Chinese
+   # percent: 75
+  #- name: Portuguese
+   # percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -118,6 +118,4 @@ languages:
 
 ## About Me
 
-I am a PhD candidate at the University of Toronto. I am an empirical microeconomist with a research agenda focusing on the economics of illicit drug markets. 
-
-My name is Heather Bone, and I am an Economics PhD Candidate at the University of Toronto. I am on the 2024-2025 job market. My research focuses on the economics of crime, with a particular focus on illicit drug markets. I am particularly interested in how criminalization and enforcement effects the decisions of criminal actors and the resulting consequences for security and public health. Methodologically, my work leverages big data, machine learning, and geographic information systems to observe the actions of criminal enterprises. 
+Hi, I'm Heather. I am an empirical microeconomist with a research agenda focusing on the economics of illicit drug markets. I am on the 2024-2025 job market.  

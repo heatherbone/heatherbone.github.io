@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: 14.svg
           filters:
             brightness: 1.0
           size: cover
@@ -32,14 +32,10 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+         My research focuses on the economics of crime, with a particular focus on illicit drug markets. I am particularly interested in how criminalization and enforcement effects the decisions of criminal actors and the resulting consequences for security and public health. Methodologically, my work leverages big data, machine learning, and geographic information systems to observe the actions of criminal enterprises. 
     design:
       columns: '1'
   - block: collection
@@ -63,45 +59,45 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+  #- block: collection
+   # id: talks
+    #content:
+     # title: Recent & Upcoming Talks
+      #filters:
+       # folders:
+        #  - event
+    #design:
+     # view: article-grid
+      #columns: 1
+  #- block: collection
+   # id: news
+    #content:
+     # title: Recent News
+      #subtitle: ''
+      #text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      #page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      #count: 5
       # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+      #filters:
+       # author: ""
+        #category: ""
+       # t#ag: ""
+       # exclude_featured: false
+        #exclude_future: false
+        #exclude_past: false
+        #publication_type: ""
       # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
+      #offset: 0
+      ## Page order: descending (desc) or ascending (asc) date.
+      #order: desc
+    #design:
       # Choose a layout view
-      view: date-title-summary
+      #view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      #spacing:
+        #padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
