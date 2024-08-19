@@ -38,8 +38,8 @@ profiles:
 
 interests:
   - Economics of Crime
-  - Labour Economics
-  - Artificial Intelligence
+  - Economics of Discrimination
+  - Machine Learning
 
 education:
   - area: PhD Economics
@@ -118,4 +118,4 @@ skills:
 
 ## About Me
 
-<span style="color: black;">Hi, I'm Heather. I am an empirical microeconomist with a research agenda focusing on the economics of illicit drug markets. I am on the 2024-2025 job market.  Hi, I'm Heather. I am an empirical microeconomist with a research agenda focusing on the economics of illicit drug markets. I am on the 2024-2025 job market. </span>  
+Hi, I'm Heather. I am an empirical microeconomist with a research agenda focusing on the economics of illicit drug markets. I am on the 2024-2025 job market.  
