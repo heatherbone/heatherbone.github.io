@@ -118,4 +118,6 @@ skills:
 
 ## About Me
 
-Hi, I'm Heather. I am an empirical microeconomist with a research agenda focusing on the economics of illicit drug markets. I am on the 2024-2025 job market.  
+Hi, I'm Heather. I am an empirical microeconomist on the 2024-2025 job market. My current research focuses on the economics of illicit drug markets. 
+
+Learn more about my research(LINK), my teaching(LINK) or just get to know me a little better(LINK). 
