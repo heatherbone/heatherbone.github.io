@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
   - block: markdown
-    #content:
+    content:
       title: <div style="text-align: center;">Research Overview</div>
 
       subtitle: ''
