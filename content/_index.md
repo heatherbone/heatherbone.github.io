@@ -8,6 +8,9 @@ design:
   # Default section spacing
   spacing: "2rem"
 
+css:
+  - "css/custom.css"
+
 sections:
   - block: resume-biography-3
     content:
