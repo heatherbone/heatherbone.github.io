@@ -31,8 +31,9 @@ sections:
           position: center
           parallax: false
   - block: markdown
-    content:
-      title: 'My Research'
+    #content:
+      title: <div style="text-align: center;">'Research Overview' </div>
+
       subtitle: ''
       text: |-
          My research focuses on the economics of crime, with a particular focus on illicit drug markets. I am particularly interested in how criminalization and enforcement effects the decisions of criminal actors and the resulting consequences for security and public health. 
@@ -55,19 +56,19 @@ sections:
     #design:
      # view: article-grid
       #columns: 2
-  - block: collection
-    content:
-      title: ''
-      text: "Papers"
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-      spacing:
+  #- block: collection
+    #content:
+      #title: ''
+      #text: "Papers"
+      #filters:
+        #folders:
+          #- publication
+        #exclude_featured: false
+    #design:
+      #view: citation
+      #spacing:
       # Customize the section spacing. Order is top, right, bottom, left.
-      padding: ['20px', '0', '20px', '0']
+      #padding: ['20px', '0', '20px', '0']
   #- block: collection
    # id: talks
     #content:
