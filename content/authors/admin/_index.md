@@ -46,7 +46,7 @@ education:
     institution: University of Toronto
     date_start: 2018-09-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis Title: Essays in the Economics of Illicit Markets. Supervised by [Arthur Blouin](https://www.economics.utoronto.ca/blouinar/).
     button:
       text: 'Read JMP'
       url: 'https://example.com'
