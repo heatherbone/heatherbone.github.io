@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: rose
+  color: indigo
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -38,14 +38,14 @@ header:
       text: "Heather Bone"
 
 # Site footer
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: false
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+#footer:
+  #copyright:
+    #notice: '© {year} Heather Bone. This work is licensed under {license}'
+    #license:
+      #enable: false
+      #allow_derivatives: false
+      #share_alike: true
+      #allow_commercial: false
 
 # Localization
 locale:
