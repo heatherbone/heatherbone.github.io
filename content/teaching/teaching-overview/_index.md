@@ -10,7 +10,8 @@ sections:
     id: section-1
     content:
       title: Teaching Experience
-      text: **ECO200: Intermediate Microeconomics (Spring 2023)**
+      text: |
+      **ECO200: Intermediate Microeconomics (Spring 2023)**
       Description of course goes here. Also add links to syllabus and course review
 
       **ECO225: Big Data Tools for Economists (Guest Instructor, Spring 2024)**
