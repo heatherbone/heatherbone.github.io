@@ -1,6 +1,6 @@
 ---
 # Page title
-title: Teaching Overview
+title: ''
 # Page type - we want a landing page (such as a homepage)
 type: landing
 
@@ -9,10 +9,10 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: Section Placeholder
-      subtitle: A subtitle
+      title: Teaching Experience
+      subtitle: ''
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-  - block: markdown
+  - block: Teaching Certifications
     id: section-2
     content:
       title: Section 2
