@@ -11,8 +11,15 @@ main:
     url: research/
     weight: 11
   - name: Teaching
+    identifier: teaching
     url: teaching/
-    weight: 40
+    weight: 20
+  - name: Teaching Overview
+    parent: teaching
+    url: teaching/teaching-overview
+  - name: Teaching Philosophy
+    parent: teaching
+    url: teaching/teaching-philosophy
   - name: About
     url: experience/
-    weight: 20
+    weight: 40
