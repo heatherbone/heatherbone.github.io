@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     #content:
-      title: <div style="text-align: center;">'Research Overview' </div>
+      title: <div style="text-align: center;">Research Overview</div>
 
       subtitle: ''
       text: |-
