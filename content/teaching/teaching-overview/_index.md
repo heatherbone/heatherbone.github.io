@@ -11,17 +11,17 @@ sections:
     content:
       title: Teaching Experience
       text: |
-      **ECO200: Intermediate Microeconomics (Spring 2023)**
-      Description of course goes here. Also add links to syllabus and course review
+        **ECO200: Intermediate Microeconomics (Spring 2023)**
+        Description of course goes here. Also add links to syllabus and course review
 
-      **ECO225: Big Data Tools for Economists (Guest Instructor, Spring 2024)**
-      Include picture of me teaching, as well as some quotes from the reviews that students left
+        **ECO225: Big Data Tools for Economists (Guest Instructor, Spring 2024)**
+        Include picture of me teaching, as well as some quotes from the reviews that students left
 
-      **Lead Writing TA, Department of Economics (Beginning Date - End Date)**
-      Describe the WIT program, what I did as part of it, and link to any relevant materials
+        **Lead Writing TA, Department of Economics (Beginning Date - End Date)**
+        Describe the WIT program, what I did as part of it, and link to any relevant materials
 
-      **Teaching Assistantships**
-      Create a list of all the courses I have TAed below
+        **Teaching Assistantships**
+        Create a list of all the courses I have TAed below
   - block: Teaching Certification
     id: section-2
     content:
@@ -29,3 +29,4 @@ sections:
       subtitle: A subtitle
       text: Add your Section 2 content here...
 ---
+
