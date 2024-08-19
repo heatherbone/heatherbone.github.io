@@ -26,13 +26,13 @@ sections:
           # Add your image background to `assets/media/`.
           filename: 17.svg
           filters:
-            brightness: 0.5
+            brightness: 0.4
           size: cover
           position: center
           parallax: false
   - block: markdown
     content:
-      title: My Research
+      title: Research Overview
       subtitle: ''
       text: |-
         <div style="text-align: center;"> My research focuses on the economics of crime, with a particular focus on illicit drug markets. I am particularly interested in how criminalization and enforcement effects the decisions of criminal actors and the resulting consequences for security and public health. 
