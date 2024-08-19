@@ -9,13 +9,6 @@ sections:
   - block: markdown
     id: tp-1
     content:
-      title: Section Placeholder
-      subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-  - block: markdown
-    id: tp-2
-    content:
-      title: Section 2
-      subtitle: A subtitle
-      text: Add your Section 2 content here...
+      title: My Teaching Philosophy
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code! 
 ---
