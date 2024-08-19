@@ -42,7 +42,7 @@ interests:
   - Machine Learning
 
 education:
-  - area: PhD Economics
+  - area: PhD Economics (Expected June 2024)
     institution: University of Toronto
     date_start: 2018-09-01
     summary: |
@@ -120,4 +120,4 @@ skills:
 
 Hi, I'm Heather. I am an empirical microeconomist on the 2024-2025 job market. My current research focuses on the economics of illicit drug markets. 
 
-Learn more about my research(LINK), my teaching experience and <a href="/teaching/teaching-philosophy/">philosophy</a> or just get to know me a little better(LINK). 
+Learn more about my <a href="/research/">research</a>, my teaching <a href="/teaching/teaching-experience">experience</a> and <a href="/teaching/teaching-philosophy/">philosophy</a> or just <a href="/about-me/">get to know me a little</a>. 
