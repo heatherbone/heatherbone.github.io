@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: 'My Research'
+      title: <div style="text-align: center;">My Research</div>
       subtitle: ''
       text: |-
          My research focuses on the economics of crime, with a particular focus on illicit drug markets. I am particularly interested in how criminalization and enforcement effects the decisions of criminal actors and the resulting consequences for security and public health. 
