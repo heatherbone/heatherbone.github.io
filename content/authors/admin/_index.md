@@ -42,7 +42,7 @@ interests:
   - Machine Learning
 
 education:
-  - area: PhD Economics (Expected June 2024)
+  - area: PhD Economics (In Progress)
     institution: University of Toronto
     date_start: 2018-09-01
     summary: |
