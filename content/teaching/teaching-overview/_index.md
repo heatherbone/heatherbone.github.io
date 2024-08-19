@@ -10,7 +10,6 @@ sections:
     id: section-1
     content:
       title: Teaching Experience
-      subtitle: ''
       text: **ECO200: Intermediate Microeconomics (Spring 2023)**
       Description of course goes here. Also add links to syllabus and course review
 
