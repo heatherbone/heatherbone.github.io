@@ -22,11 +22,10 @@ sections:
 
         **Teaching Assistantships**
         Create a list of all the courses I have TAed below
-  - block: Teaching Certification
+  - block: markdown
     id: section-2
     content:
-      title: Section 2
-      subtitle: A subtitle
+      title: Teaching Certification
       text: Add your Section 2 content here...
 ---
 
