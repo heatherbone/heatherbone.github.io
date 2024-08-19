@@ -1,5 +1,5 @@
 .avatar {
-    width: 300px;  /* Adjust the width to your desired size */
-    height: 300px; /* Adjust the height to your desired size */
-    border-radius: 50%; /* Keep the avatar circular, remove if not needed */
+    width: 300px !important;  /* Adjust the width to your desired size */
+    height: 300px !important; /* Adjust the height to your desired size */
+    border-radius: 50% !important; /* Keep the avatar circular, remove if not needed */
 }
