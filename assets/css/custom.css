@@ -1,29 +1,31 @@
 .header-container {
-    display: flex !important;
-    align-items: flex-start !important;
-    gap: 30px !important;
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center-align items horizontally */
+    text-align: center; /* Ensure text is centered */
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .avatar {
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    flex-shrink: 0 !important;
-    margin-right: 0 !important; /* Remove any unnecessary margins */
-    margin-bottom: 0 !important;
+    margin-bottom: 20px !important; /* Add space below the avatar */
 }
 
-.author-bio {
-    flex-grow: 1 !important;
-    max-width: 800px !important; /* Control the width of the bio section */
-    padding: 30px !important;
-    margin-bottom: 40px !important; /* Increase the bottom margin for more space */
+.author-info {
+    margin-top: 20px !important; /* Add space above the text */
+    max-width: 80%; /* Restrict the width of the text for better layout */
 }
 
-.author-bio p {
-    line-height: 1.8 !important;
-    font-size: 1.1rem !important;
-    margin-bottom: 20px !important; /* Add space between paragraphs */
+.author-info h1, .author-info h2, .author-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.author-info p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.2rem; /* Adjust the font size as needed */
 }
