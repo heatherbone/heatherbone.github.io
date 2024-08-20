@@ -1,24 +1,29 @@
-.avatar {
-    width: 300px !important;  /* Adjust the width to your desired size */
-    height: 300px !important; /* Adjust the height to your desired size */
-    border-radius: 50% !important; /* Keep the avatar circular, remove if not needed */
-    margin-right: 20px !important; /* Add space to the right of the avatar */
-    margin-bottom: 20px !important; /* Add space below the avatar */
-    float: left !important; /* Floats the avatar to the left, allowing text to wrap around */
-}
-
-/* Adjust the container holding the avatar and text */
 .header-container {
-    overflow: hidden !important; /* Ensures content doesn't overlap */
-    padding-top: 20px !important; /* Adds some padding to the top */
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 30px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 
+.avatar {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50% !important;
+    flex-shrink: 0 !important;
+    margin-right: 0 !important; /* Remove any unnecessary margins */
+    margin-bottom: 0 !important;
+}
 
 .author-bio {
-    padding: 20px !important;
-    margin-bottom: 20px !important;
+    flex-grow: 1 !important;
+    max-width: 800px !important; /* Control the width of the bio section */
+    padding: 30px !important;
+    margin-bottom: 40px !important; /* Increase the bottom margin for more space */
 }
 
 .author-bio p {
-    line-height: 1.6 !important; /* Increase line-height for better readability */
+    line-height: 1.8 !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 20px !important; /* Add space between paragraphs */
 }
