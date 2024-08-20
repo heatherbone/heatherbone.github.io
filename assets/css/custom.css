@@ -3,8 +3,8 @@
     flex-direction: column; /* Arrange items in a column */
     align-items: center; /* Center-align items horizontally */
     text-align: center; /* Ensure text is centered */
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .avatar {
