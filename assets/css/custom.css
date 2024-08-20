@@ -27,5 +27,6 @@
 .author-info p {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 1.2rem !important; /* Adjust the font size as needed */
+    font-size: 0.8rem !important; /* Adjust the font size as needed */
+    font-color: white !important;
 }
