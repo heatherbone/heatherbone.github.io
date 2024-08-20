@@ -9,6 +9,16 @@
 
 /* Adjust the container holding the avatar and text */
 .header-container {
-    overflow: hidden; /* Ensures content doesn't overlap */
-    padding-top: 20px; /* Adds some padding to the top */
+    overflow: hidden !important; /* Ensures content doesn't overlap */
+    padding-top: 20px !important; /* Adds some padding to the top */
+}
+
+
+.author-bio {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.author-bio p {
+    line-height: 1.6 !important; /* Increase line-height for better readability */
 }
