@@ -16,16 +16,16 @@
 
 .author-info {
     margin-top: 20px !important; /* Add space above the text */
-    max-width: 80%; /* Restrict the width of the text for better layout */
+    max-width: 80% !important; /* Restrict the width of the text for better layout */
 }
 
 .author-info h1, .author-info h2, .author-info h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: 50px !important;
+    margin-bottom: 10px !important;
 }
 
 .author-info p {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    font-size: 1.2rem !important; /* Adjust the font size as needed */
 }
