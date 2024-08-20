@@ -23,7 +23,8 @@ sections:
         url: /CV_Heather_Bone.pdf
     design:
       #css_class: dark
-      css_class: author-info
+      #css_class: author-info
+      css_class: profile
       background:
         color: black
         image:
