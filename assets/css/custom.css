@@ -11,7 +11,7 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin-bottom: 100px !important; /* Add space below the avatar */
+    margin-bottom: 10px !important; /* Add space below the avatar */
 }
 
 .author-info {
@@ -26,6 +26,6 @@
 
 .author-info p {
     margin-top: 10px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
     font-size: 1.2rem !important; /* Adjust the font size as needed */
 }
