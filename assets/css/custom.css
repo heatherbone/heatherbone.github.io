@@ -11,7 +11,7 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin-bottom: 500px !important; /* Add space below the avatar */
+    margin-bottom: 100px !important; /* Add space below the avatar */
 }
 
 .author-info {
