@@ -11,11 +11,11 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin-bottom: 20px !important; /* Add space below the avatar */
+    margin-bottom: 100px !important; /* Add space below the avatar */
 }
 
 .author-info {
-    margin-top: 20px !important; /* Add space above the text */
+    margin-top: 100px !important; /* Add space above the text */
     max-width: 80% !important; /* Restrict the width of the text for better layout */
 }
 
