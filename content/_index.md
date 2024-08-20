@@ -22,17 +22,18 @@ sections:
         text: Download CV
         url: /CV_Heather_Bone.pdf
     design:
-      css_class: dark
+      #css_class: dark
+      css_class: author-info
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
           filename: 17.svg
           filters:
-            brightness: 0.4
+            brightness: 0.6
           size: cover
           position: center
-          parallax: false
+          parallax: true
   - block: markdown
     content:
       title: Research Overview
