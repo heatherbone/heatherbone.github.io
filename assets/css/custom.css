@@ -71,7 +71,7 @@
 /* Center the name and other details below the avatar */
 .portrait-title {
     text-align: center; /* Center the text directly under the avatar */
-    margin-top: 70px; /* Adjust the space between the avatar and the name */
+    margin-top: 40px; /* Adjust the space between the avatar and the name */
 }
 
 .portrait-title .text-3xl,
