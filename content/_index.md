@@ -29,7 +29,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: h3.svg
+          filename: h4.svg
           filters:
             brightness: 0.6
           size: cover

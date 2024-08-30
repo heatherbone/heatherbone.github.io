@@ -81,3 +81,7 @@
     margin: 5px 0; /* Ensure consistent spacing between text elements */
     text-align: center; /* Center-align each text element */
 }
+
+#section-resume-biography-3 {
+    padding-bottom: 30px !important; /* Adjust the value as needed */
+}
