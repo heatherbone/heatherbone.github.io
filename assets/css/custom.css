@@ -11,10 +11,10 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin-right: 0px; /* Adds space to the right of the image */
-    margin-left: 0px;  /* Adds space to the left of the image */
-    margin-top: 0px;   /* Adds space above the image */
-    margin-bottom: 30px;/* Adds space below the image */
+    margin-right: auto !important; /* Adds space to the right of the image */
+    margin-left: 0px !important;  /* Adds space to the left of the image */
+    margin-top: 0px !important;   /* Adds space above the image */
+    margin-bottom: 30px !important;/* Adds space below the image */
 }
 
 .author-info {
@@ -68,6 +68,6 @@
 }
 
 .home-section-bg {
-    padding-top: 20px; /* Adjust the value as needed */
-    padding-bottom: 20px; /* Adjust the value as needed */
+    padding-top: 20px !important; /* Adjust the value as needed */ 
+    padding-bottom: 20px !important; /* Adjust the value as needed */
 }
