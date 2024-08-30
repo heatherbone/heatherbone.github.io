@@ -65,7 +65,7 @@
 
 /* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin-left: -2px !important; /* Remove any margins that might affect centering */
+    margin-left: -1px !important; /* Remove any margins that might affect centering */
     display: flex;
     justify-content: center; /* Center the avatar horizontally */
     align-items: center; /* Center the avatar vertically */
@@ -83,7 +83,7 @@
 /* Center the name and other details below the avatar */
 .portrait-title {
     text-align: center; /* Center the text directly under the avatar */
-    margin-top: 20px; /* Adjust the space between the avatar and the name */
+    margin-top: 40px; /* Adjust the space between the avatar and the name */
 }
 
 .portrait-title .text-3xl,
