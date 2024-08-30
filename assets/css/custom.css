@@ -35,17 +35,17 @@
 }
 
 .portrait-title {
-    padding-top: 20px; /* Adds space above the entire block */
+    padding-top: 40px; /* Adds space above the entire block */
 }
 
 .portrait-title .text-3xl {
-    margin-top: 20px; /* Adjust this value to move the name down */
+    margin-top: 0px; /* Adjust this value to move the name down */
 }
 
 .portrait-title h3 {
-    margin-top: 20px; /* Adjust this value to move the PhD Candidate title down */
+    margin-top: 0px; /* Adjust this value to move the PhD Candidate title down */
 }
 
 .portrait-title div {
-    margin-top: 20px; /* Adjust this value to move the Department of Economics section down */
+    margin-top: 0px; /* Adjust this value to move the Department of Economics section down */
 }
