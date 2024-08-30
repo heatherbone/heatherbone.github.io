@@ -11,7 +11,10 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin-bottom: 100px !important; /* Add space below the avatar */
+    margin-right: 10px; /* Adds space to the right of the image */
+    margin-left: 10px;  /* Adds space to the left of the image */
+    margin-top: 10px;   /* Adds space above the image */
+    margin-bottom: 10px;/* Adds space below the image */
 }
 
 .author-info {
