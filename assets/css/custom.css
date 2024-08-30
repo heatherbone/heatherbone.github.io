@@ -35,7 +35,7 @@
 }
 
 .portrait-title {
-    padding-top: 40px; /* Adds space above the entire block */
+    padding-top: 100px; /* Adds space above the entire block */
 }
 
 .portrait-title .text-3xl {
@@ -57,4 +57,12 @@
 
 .resume-biography .bio-text {
     padding-top: 0px; /* Set this to a smaller value or 0 to reduce space */
+}
+
+.flex-auto.max-w-prose {
+    margin-top: 0; /* Reduces the top margin to zero */
+}
+
+.flex-auto.max-w-prose .pt-2 {
+    padding-top: 0; /* Reduces the top padding to zero */
 }
