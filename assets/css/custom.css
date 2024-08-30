@@ -16,7 +16,7 @@
 }
 
 .author-info {
-    margin-top: 10px !important; /* Add space above the text */
+    margin-top: 20px !important; /* Add space above the text */
     max-width: 80% !important; /* Restrict the width of the text for better layout */
     text-align: center; /* Ensure text is centered */
 }
@@ -51,7 +51,7 @@
 
 .home-section-bg {
     padding-top: 20px !important; /* Adjust the value as needed */ 
-    padding-bottom: 20px !important; /* Adjust the value as needed */
+    padding-bottom: 40px !important; /* Adjust the value as needed */
 }
 
 /* Ensure the parent container is a flexbox and centers its children */
@@ -65,7 +65,7 @@
 
 /* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin-left: -10px !important; /* Remove any margins that might affect centering */
+    margin-left: -2px !important; /* Remove any margins that might affect centering */
     display: flex;
     justify-content: center; /* Center the avatar horizontally */
     align-items: center; /* Center the avatar vertically */
