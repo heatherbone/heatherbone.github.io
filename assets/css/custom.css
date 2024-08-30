@@ -33,10 +33,6 @@
     color: white !important; /* Corrected from font-color */
 }
 
-
-
-
-
 .resume-biography .bio-text {
     padding-top: 0px; /* Set this to a smaller value or 0 to reduce space */
 }
@@ -58,28 +54,17 @@
 #profile {
     display: flex;
     flex-direction: column; /* Align items vertically */
-    align-items: flex-start; /* Center items horizontally */
+    align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically if needed */
     text-align: center; /* Center text within the container */
 }
 
 /* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin-left: -1px !important; /* Remove any margins that might affect centering */
+    margin: 0; /* Remove any margins that might affect centering */
     display: flex;
     justify-content: center; /* Center the avatar horizontally */
     align-items: center; /* Center the avatar vertically */
-}
-
-/* Ensure the avatar itself is 300x300 pixels and centered */
-.avatar {
-    margin: 0 auto; /* Center the avatar horizontally */
-    display: block; /* Ensure it behaves like a block element */
-    width: 300px !important; /* Set the width to 300px */
-    height: 300px !important; /* Set the height to 300px */
-    border-radius: 50% !important; /* Keep the circular shape */
-    padding-left: 1px !important; /* Optional: Add padding to align with the content on the right */
-
 }
 
 /* Center the name and other details below the avatar */
