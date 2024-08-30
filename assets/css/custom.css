@@ -58,14 +58,14 @@
 #profile {
     display: flex;
     flex-direction: column; /* Align items vertically */
-    align-items: center; /* Center items horizontally */
+    align-items: flex-start; /* Center items horizontally */
     justify-content: center; /* Center items vertically if needed */
     text-align: center; /* Center text within the container */
 }
 
 /* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin: 0; /* Remove any margins that might affect centering */
+    margin-left: -10px !important; /* Remove any margins that might affect centering */
     display: flex;
     justify-content: center; /* Center the avatar horizontally */
     align-items: center; /* Center the avatar vertically */
