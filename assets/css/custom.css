@@ -65,7 +65,7 @@
 
 /* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin-left: -0.5px !important; /* Remove any margins that might affect centering */
+    margin-left: -1px !important; /* Remove any margins that might affect centering */
     display: flex;
     justify-content: center; /* Center the avatar horizontally */
     align-items: center; /* Center the avatar vertically */
@@ -78,7 +78,7 @@
     width: 300px !important; /* Set the width to 300px */
     height: 300px !important; /* Set the height to 300px */
     border-radius: 50% !important; /* Keep the circular shape */
-    padding-left: 0.5px !important; /* Optional: Add padding to align with the content on the right */
+    padding-left: 1px !important; /* Optional: Add padding to align with the content on the right */
 
 }
 
