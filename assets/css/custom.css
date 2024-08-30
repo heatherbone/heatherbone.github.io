@@ -78,6 +78,8 @@
     width: 300px !important; /* Set the width to 300px */
     height: 300px !important; /* Set the height to 300px */
     border-radius: 50% !important; /* Keep the circular shape */
+    padding-left: 0.5px !important; /* Optional: Add padding to align with the content on the right */
+
 }
 
 /* Center the name and other details below the avatar */
