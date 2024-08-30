@@ -11,15 +11,14 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin-right: auto !important; /* Adds space to the right of the image */
-    margin-left: 0px !important;  /* Adds space to the left of the image */
-    margin-top: 0px !important;   /* Adds space above the image */
-    margin-bottom: 30px !important;/* Adds space below the image */
+    margin: 0 auto 30px auto !important; /* Center the image and add space below it */
+    display: block; /* Ensure the image is treated as a block element */
 }
 
 .author-info {
     margin-top: 10px !important; /* Add space above the text */
     max-width: 80% !important; /* Restrict the width of the text for better layout */
+    text-align: center; /* Ensure text is centered */
 }
 
 .author-info h1, .author-info h2, .author-info h3 {
@@ -31,11 +30,12 @@
     margin-top: 10px !important;
     margin-bottom: 10px !important;
     font-size: 0.8rem !important; /* Adjust the font size as needed */
-    font-color: white !important;
+    color: white !important; /* Corrected from font-color */
 }
 
 .portrait-title {
     padding-top: 100px; /* Adds space above the entire block */
+    text-align: center; /* Ensure text is centered */
 }
 
 .portrait-title .text-3xl {
@@ -52,6 +52,7 @@
 
 .resume-biography .avatar-wrapper {
     margin-top: 0px; /* Set this to a smaller value or 0 to reduce space */
+    text-align: center; /* Ensure the wrapper is centered */
 }
 
 
