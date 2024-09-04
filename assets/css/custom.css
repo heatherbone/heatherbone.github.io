@@ -84,3 +84,26 @@
 
 #section-resume-biography-3 {
     padding-bottom: 60px !important; /* Adjust the value as needed */
+}
+
+.button-group {
+    display: inline-flex;
+    gap: 20px; /* Adjust spacing between the buttons */
+}
+
+button.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #007bff; /* Style according to your theme */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
