@@ -14,16 +14,13 @@ css:
 sections:
   - block: resume-biography-3
     content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |
-        <div class="bio-text">
-          Hi, I’m Heather. I’m an empirical microeconomist on the 2024-2025 job market. My current research focuses on the economics of illicit drug markets. Learn more about my <a href="/research/">research</a>, my teaching <a href="/teaching/teaching-experience">experience</a> and <a href="/teaching/teaching-philosophy/">philosophy</a>, or just <a href="/about-me/">get to know me a little</a>.
-        </div>
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
       button:
-        - text: Download CV
-          url: /CV_Heather_Bone.pdf
-        - text: Download JMP
-          url: /CV_Heather_Bone.pdf
+        text: Download CV
+        url: /CV_Heather_Bone.pdf
     design:
       css_class: dark
       #css_class: author-info
