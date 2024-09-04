@@ -1,9 +1,8 @@
-
 .header-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center-align items horizontally */
+    text-align: center; /* Ensure text is centered */
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -12,14 +11,14 @@
     width: 300px !important;
     height: 300px !important;
     border-radius: 50% !important;
-    margin: 0 auto 30px auto !important; 
-    display: block;
+    margin: 0 auto 30px auto !important; /* Center the image and add space below it */
+    display: block; /* Ensure the image is treated as a block element */
 }
 
 .author-info {
-    margin-top: 20px !important;
-    max-width: 80% !important;
-    text-align: center;
+    margin-top: 20px !important; /* Add space above the text */
+    max-width: 80% !important; /* Restrict the width of the text for better layout */
+    text-align: center; /* Ensure text is centered */
 }
 
 .author-info h1, .author-info h2, .author-info h3 {
@@ -30,61 +29,58 @@
 .author-info p {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-    font-size: 0.8rem !important;
-    color: white !important;
+    font-size: 0.8rem !important; /* Adjust the font size as needed */
+    color: white !important; /* Corrected from font-color */
 }
 
 .resume-biography .bio-text {
-    padding-top: 0px;
+    padding-top: 0px; /* Set this to a smaller value or 0 to reduce space */
     padding-bottom: 30px !important;
 }
 
 .flex-auto.max-w-prose {
-    margin-top: 0;
+    margin-top: 0; /* Reduces the top margin to zero */
 }
 
 .flex-auto.max-w-prose .pt-2 {
-    padding-top: 0;
+    padding-top: 0; /* Reduces the top padding to zero */
 }
 
 .home-section-bg {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
+    padding-top: 60px !important; /* Adjust the value as needed */ 
+    padding-bottom: 60px !important; /* Adjust the value as needed */
 }
 
 /* Ensure the parent container is a flexbox and centers its children */
 #profile {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 70px;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically if needed */
+    text-align: center; /* Center text within the container */
+    margin-top: 70px
 }
 
-/* Ensure the avatar is centered */
+/* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin: 0;
+    margin: 0; /* Remove any margins that might affect centering */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center the avatar horizontally */
+    align-items: center; /* Center the avatar vertically */
 }
 
 /* Center the name and other details below the avatar */
 .portrait-title {
-    text-align: center;
-    margin-top: 30px;
+    text-align: center; /* Center the text directly under the avatar */
+    margin-top: 30px; /* Adjust the space between the avatar and the name */
 }
 
 .portrait-title .text-3xl,
 .portrait-title h3,
 .portrait-title div {
-    margin: 5px 0;
-    text-align: center;
+    margin: 5px 0; /* Ensure consistent spacing between text elements */
+    text-align: center; /* Center-align each text element */
 }
 
 #section-resume-biography-3 {
-    padding-bottom: 60px !important;
-}
-
-/* Removing all custom button styles to use the theme's default button styles */
+    padding-bottom: 60px !important; /* Adjust the value as needed */
