@@ -18,12 +18,17 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: /CV_Heather_Bone.pdf
-      button:
-        text: Download JMP
-        url: /CV_Heather_Bone.pdf
+      #button:
+        #text: Download CV
+        #url: /CV_Heather_Bone.pdf
+      #button:
+        #text: Download JMP
+        #url: /CV_Heather_Bone.pdf
+      button_group:
+        - text: Download CV
+          url: /CV_Heather_Bone.pdf
+        - text: Download JMP
+          url: /CV_Heather_Bone.jmp
     design:
       css_class: dark
       #css_class: author-info
