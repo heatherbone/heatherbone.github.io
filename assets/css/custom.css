@@ -35,7 +35,7 @@
 
 .resume-biography .bio-text {
     padding-top: 0px; /* Set this to a smaller value or 0 to reduce space */
-    padding-bottom: 60px !important;
+    padding-bottom: 20px !important;
 }
 
 .flex-auto.max-w-prose {

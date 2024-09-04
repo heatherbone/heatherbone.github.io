@@ -18,7 +18,7 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button_group:
+      buttons:
         - text: Download CV
           url: /CV_Heather_Bone.pdf
         - text: Download JMP
