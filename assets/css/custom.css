@@ -86,32 +86,10 @@
     padding-bottom: 60px !important; /* Adjust the value as needed */
 }
 
-/* Updated button styles */
+/* Only keep layout-related styles for the button group */
 .button-group {
     display: inline-flex;
     justify-content: center;
     gap: 20px; /* Adjust space between buttons */
     margin-top: 20px; /* Adjust space between buttons and other content */
-}
-
-.button-group .btn {
-    padding: 10px 25px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-color: #007bff; /* Match the theme's primary color */
-    color: white;
-    text-decoration: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add slight shadow for better design */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-.button-group .btn:hover {
-    background-color: #0056b3; /* Slightly darker on hover */
-}
-
-.button-group .btn:focus {
-    outline: none;
-    box-shadow: 0 0 5px #007bff; /* Highlight on focus */
 }
