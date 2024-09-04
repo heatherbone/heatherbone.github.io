@@ -21,6 +21,9 @@ sections:
       button:
           text: Download CV
           url: /CV_Heather_Bone.pdf
+      button:
+          text: Download JMP
+          url: /CV_Heather_Bone.pdf
     design:
       css_class: dark
       #css_class: author-info
