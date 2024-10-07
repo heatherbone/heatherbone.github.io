@@ -1,34 +1,41 @@
-{{/* Get the image resource based on the filename passed to the shortcode */}}
-{{ $src := resources.GetMatch (.Get "src") }}
+{{/* Get the image resource from the page resources (like content/authors/admin/avatar.png) */}}
+{{ $src := .Page.Resources.GetMatch "avatar.png" }}
 
-{{ if in (.Get "src") "http" }}
-<img src="{{$src}}" {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}>
+{{ if $src }}
+  {{/* Resize the avatar found in the page resources */}}
+  {{ $smallw := "300x" }}  <!-- Small size set to 300px -->
+  {{ $mediumw := "800x" }}
+  {{ $largew := "1200x" }}
+
+  {{/* Resize the images */}}
+  {{ .Scratch.Set "small" ($src.Resize $smallw) }}
+  {{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
+  {{ .Scratch.Set "large" ($src.Resize $largew) }}
+
+  {{ $small := .Scratch.Get "small" }}
+  {{ $medium := .Scratch.Get "medium" }}
+  {{ $large := .Scratch.Get "large" }}
+
+  <img
+    srcset="
+      {{ with $small.RelPermalink }}{{.}} 300w,{{ end }}  <!-- 300px width image -->
+      {{ with $medium.RelPermalink }}{{.}} 800w,{{ end }}
+      {{ with $large.RelPermalink }}{{.}} 1200w"
+    src="{{ $medium.RelPermalink }}"
+    sizes="(min-width: 35em) 720px, 100vw"
+    alt="{{ .Get "alt" }}">
+  
 {{ else }}
-{{ if in (.Get "src") ".gif" }}
-<img src="{{$src.RelPermalink}}" {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}>
-{{ else }}
 
-{{/* Define responsive sizes */}}
-{{ $smallw := "300x" }}
-{{ $mediumw := "800x" }}
-{{ $largew := "1200x" }}
+  {{/* Fallback to a default avatar in the static folder (e.g., static/img/default-avatar.png) */}}
+  {{ $default := resources.Get "img/default-avatar.png" }}
 
-{{/* Resize images */}}
-{{ .Scratch.Set "small" ($src.Resize $smallw) }}
-{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
-{{ .Scratch.Set "large" ($src.Resize $largew) }}
+  {{ if $default }}
+    {{/* Resize the default avatar to the same size */}}
+    {{ $defaultSmall := $default.Resize "300x300 Lanczos q100" }}
+    <img src="{{ $defaultSmall.RelPermalink }}" alt="Default Avatar" width="{{ $defaultSmall.Width }}" height="{{ $defaultSmall.Height }}">
+  {{ else }}
+    <img src="/path/to/fallback/default-avatar.png" alt="Default avatar"> <!-- Fallback in case both avatars are missing -->
+  {{ end }}
 
-{{ $small := .Scratch.Get "small" }}
-{{ $medium := .Scratch.Get "medium" }}
-{{ $large := .Scratch.Get "large" }}
-
-<img
-  srcset="
-    {{ with $small.RelPermalink }}{{.}} 300w,{{ end }}
-    {{ with $medium.RelPermalink }}{{.}} 800w,{{ end }}
-    {{ with $large.RelPermalink }}{{.}} 1200w"
-  src="{{ $medium.RelPermalink }}"
-  sizes="(min-width: 35em) 720px, 100vw"
-  alt="{{ .Get "alt" }}">
-{{ end }}
 {{ end }}
