@@ -1,0 +1,34 @@
+{{/* Get the image resource based on the filename passed to the shortcode */}}
+{{ $src := resources.GetMatch (.Get "src") }}
+
+{{ if in (.Get "src") "http" }}
+<img src="{{$src}}" {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}>
+{{ else }}
+{{ if in (.Get "src") ".gif" }}
+<img src="{{$src.RelPermalink}}" {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}>
+{{ else }}
+
+{{/* Define responsive sizes */}}
+{{ $smallw := "300x" }}
+{{ $mediumw := "800x" }}
+{{ $largew := "1200x" }}
+
+{{/* Resize images */}}
+{{ .Scratch.Set "small" ($src.Resize $smallw) }}
+{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
+{{ .Scratch.Set "large" ($src.Resize $largew) }}
+
+{{ $small := .Scratch.Get "small" }}
+{{ $medium := .Scratch.Get "medium" }}
+{{ $large := .Scratch.Get "large" }}
+
+<img
+  srcset="
+    {{ with $small.RelPermalink }}{{.}} 300w,{{ end }}
+    {{ with $medium.RelPermalink }}{{.}} 800w,{{ end }}
+    {{ with $large.RelPermalink }}{{.}} 1200w"
+  src="{{ $medium.RelPermalink }}"
+  sizes="(min-width: 35em) 720px, 100vw"
+  alt="{{ .Get "alt" }}">
+{{ end }}
+{{ end }}
