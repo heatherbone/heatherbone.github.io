@@ -1,4 +1,4 @@
 <head>
-    {{ $styles := resources.Get "css/custom.css" | minify | fingerprint }}
+    {{ $styles := resources.Get "css/custom.css" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}">
 </head>
