@@ -7,14 +7,6 @@
     padding-bottom: 5px;
 }
 
-.avatar {
-    width: 225px; /* Fix the width to 225px */
-    height: 225px; /* Fix the height to 225px */
-    object-fit: cover; /* Ensure the image covers the container without distortion */
-    border-radius: 50%; /* Keep the image circular */
-    display: block; /* Make the image block-level */
-    margin: 0 auto; /* Center the image horizontally */
-}
 
 .author-info {
     margin-top: 20px !important; /* Add space above the text */
