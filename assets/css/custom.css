@@ -8,12 +8,10 @@
 }
 
 .avatar {
-    width: 300px !important;
-    height: 300px !important;
-    width: auto;
-    height: auto;
-    border-radius: 50% !important;
-    margin: 0 auto 30px auto !important; /* Center the image and add space below it */
+    width: 225px !important; /* Set width to 225px */
+    height: 225px !important; /* Set height to 225px */
+    border-radius: 50% !important; /* Keep the circular shape */
+    margin: 0 auto 30px auto !important; /* Center the image */
     display: block; /* Ensure the image is treated as a block element */
 }
 
