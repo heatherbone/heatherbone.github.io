@@ -9,8 +9,8 @@ sections:
   - block: markdown
     id: tp-1
     content:
-      title: Teaching Philosophy
-      text: The 3Rs: A Framework for Engaged Learning
+      # title: Teaching Philosophy
+      # text: The 3Rs: A Framework for Engaged Learning
       
       I see teaching as a collaborative process, where my role as an
 instructor is both to guide and to learn alongside my students. While I
